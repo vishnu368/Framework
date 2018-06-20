@@ -53,6 +53,7 @@ public class TestBase {
 	public static Xls_Reader suite_PrescriberEnrollment__xls=null;
 	public static Xls_Reader suite_SiliqInpatPharmacyEnrollment__xls=null;
 	public static Xls_Reader suite_SiliqOutpatPharmacyEnrollment__xls=null;
+	public static Xls_Reader suite_QsymiaOutpatientPharmacy_xls=null;
 	public static boolean isInitalized=false;
 	public static boolean isBrowserOpened=false;
 	public static Hashtable<String,String> sessionData = new Hashtable<String,String>();
@@ -85,6 +86,7 @@ public class TestBase {
 		suite_PrescriberEnrollment__xls = new Xls_Reader(System.getProperty("user.dir")+"//src//com//mckesson//xls//PrescriberEnrollment Suite.xlsx");
 		suite_SiliqInpatPharmacyEnrollment__xls = new Xls_Reader(System.getProperty("user.dir")+"//src//com//mckesson//xls//SiliqInpatPharmacyEnrollment Suite.xlsx");
 		suite_SiliqOutpatPharmacyEnrollment__xls = new Xls_Reader(System.getProperty("user.dir")+"//src//com//mckesson//xls//SiliqOutpatPharmacyEnrollment Suite.xlsx");
+		suite_QsymiaOutpatientPharmacy_xls = new Xls_Reader(System.getProperty("user.dir")+"//src//com//mckesson//xls//QsymiaOutpatientPharmacy Suite.xlsx");
 		suiteXls = new Xls_Reader(System.getProperty("user.dir")+"\\src\\com\\mckesson\\xls\\Suite.xlsx");
 		APP_LOGS.debug("Loaded XLS Files successfully");
 		isInitalized=true;
