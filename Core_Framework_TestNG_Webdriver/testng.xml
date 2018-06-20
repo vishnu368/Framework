@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.mckesson.listener.TestsListenerAdapter" />
+</listeners>
+  <suite-files>
+   <!--  <suite-file path="./SiliqInpatPharmacyEnrollment Suite.xml"/>  -->
+   <suite-file path="./SiliqOutpatPharmacyEnrollment Suite.xml"/>  
+   <!-- <suite-file path="./SiliqPrescriberEnrollment Suite.xml"/>   -->
+   
+  </suite-files>
+</suite>

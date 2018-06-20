@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InpatientRegistration]">
+  <listeners>
+    <listener class-name="com.mckesson.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="InpatientRegistration Test(failed)">
+    <classes>
+      <class name="com.mckesson.suite.InpatientRegistration.InpatientRegistrationTest">
+        <methods>
+          <include name="isElementPresent"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="OutpatientRegistration" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mckesson.suite.InpatientRegistration.InpatientRegistrationTest -->
+    </classes>
+  </test> <!-- InpatientRegistration Test(failed) -->
+</suite> <!-- Failed suite [InpatientRegistration] -->

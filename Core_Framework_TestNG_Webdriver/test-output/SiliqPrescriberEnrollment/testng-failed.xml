@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SiliqPrescriberEnrollment]">
+  <listeners>
+    <listener class-name="com.mckesson.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="SiliqInpatPharEnrollment Test(failed)">
+    <classes>
+      <class name="com.mckesson.suite.SiliqOutpatPharEnrollment.OutpatPharmEnrollmentTest">
+        <methods>
+          <include name="testRegistration" invocation-numbers="0"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="getTestDatasiliq"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.mckesson.suite.SiliqOutpatPharEnrollment.OutpatPharmEnrollmentTest -->
+    </classes>
+  </test> <!-- SiliqInpatPharEnrollment Test(failed) -->
+</suite> <!-- Failed suite [SiliqPrescriberEnrollment] -->

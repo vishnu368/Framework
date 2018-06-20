@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SiliqPrescriberEnrollment">
+
+
+
+<test name="PrescriberEnrollment Test">
+    <classes>
+        <class name="com.mckesson.suite.SiliqPrescriberEnrollment.PrescriberEnrollmentTest" ></class>  
+    </classes>
+</test>
+
+</suite>
+
